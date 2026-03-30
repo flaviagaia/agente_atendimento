@@ -1,0 +1,4 @@
+openai>=2.0,<3.0
+pydantic-ai>=0.0.24
+pandas>=2.2,<3.0
+streamlit>=1.45,<2.0

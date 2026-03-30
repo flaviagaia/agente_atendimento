@@ -1,0 +1,4 @@
+ticket_id,customer_name,channel,product_area,subject,message,priority_hint,sentiment,customer_tier,open_days
+SUP-1001,Mariana Souza,chat,billing,Cobrança em duplicidade no cartão,"Recebi duas cobranças no mesmo dia referentes à mesma assinatura e preciso entender como será o estorno.",alta,frustrated,premium,1
+SUP-1002,Carlos Mendes,email,login,Não consigo acessar minha conta,"Troquei de celular e agora o código de verificação não chega. Preciso recuperar o acesso.",alta,anxious,standard,0
+SUP-1003,Fernanda Rocha,portal,feature_request,Exportação de relatórios em CSV,"Seria muito útil poder exportar os relatórios mensais em CSV para o time financeiro.",media,neutral,business,6
