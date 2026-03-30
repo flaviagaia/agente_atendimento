@@ -11,6 +11,10 @@ O sistema responde perguntas como:
 - como responder o cliente de forma clara e segura?
 - quais são os próximos passos e o SLA sugerido?
 
+## Interface
+
+![Interface do agente de atendimento](assets/agente_atendimento.jpg)
+
 ## Arquitetura
 
 ```mermaid
@@ -209,6 +213,10 @@ streamlit run app.py
 ## English Version
 
 `Agente Atendimento` is a `PydanticAI` MVP for intelligent customer support. The project combines structured service ticket context, domain tools for routing and next steps, and a typed agent output contract to produce reliable support responses. When the PydanticAI runtime is unavailable, a deterministic fallback preserves the same output shape for local reproducibility.
+
+## Interface
+
+![Support agent interface](assets/agente_atendimento.jpg)
 
 ### Technical Highlights
 
