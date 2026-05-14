@@ -49,17 +49,17 @@ O projeto foi estruturado em quatro camadas:
 
 ## Estrutura do Projeto
 
-- [src/sample_data.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_atendimento/src/sample_data.py)
+- [src/sample_data.py](src/sample_data.py)
   - tickets demo.
-- [src/tools.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_atendimento/src/tools.py)
+- [src/tools.py](src/tools.py)
   - tools de classificação, resposta e próximos passos.
-- [src/agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_atendimento/src/agent.py)
+- [src/agent.py](src/agent.py)
   - orquestração com `PydanticAI` e fallback.
-- [app.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_atendimento/app.py)
+- [app.py](app.py)
   - console técnico em `Streamlit`.
-- [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_atendimento/main.py)
+- [main.py](main.py)
   - execução rápida e persistência do relatório.
-- [tests/test_agent.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_atendimento/tests/test_agent.py)
+- [tests/test_agent.py](tests/test_agent.py)
   - validação do fluxo principal.
 
 ## Como o PydanticAI foi modelado
@@ -168,7 +168,7 @@ Os tickets demo incluem:
 
 ## Persistência e Artefatos
 
-O script [main.py](/Users/flaviagaia/Documents/CV_FLAVIA_CODEX/agente_atendimento/main.py) gera o artefato:
+O script [main.py](main.py) gera o artefato:
 
 - `data/processed/support_agent_report.json`
 
